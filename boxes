@@ -1,0 +1,75 @@
+<style> /* the following is the box-sizing reset */
+
+html {
+	box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+/* now back to regular styling */
+body {
+	color: #14080e;
+	background-color: #e8e5e7;
+}
+
+header {
+}
+
+main {
+}
+
+#one {
+	border: 1px solid #736786;
+	padding: 10px;
+	width: 80%;
+	margin: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 100px;
+	text-align: center;
+	border-radius: 50px;
+	background: linear-gradient(to right, #C6DEF1, #F9C6C9);}
+
+
+#two {
+	background: linear-gradient(to left, #C6DEF1, #F9C6C9 ) 
+}
+
+#three {
+	background-color: #F2C6DE;
+	padding: 100px;
+}
+
+#four {
+	background-color: #F7D9C4;
+}
+</style>
+
+<header>
+	<h1>web demo for exploring the box model in web pages</h1>
+</header>
+
+<main>
+	<!-- a box is called a div in html -->
+
+	<div id="one">
+		<p>content goes here.</p>
+	</div>
+
+	<div id="two">
+		<p>content goes here.</p>
+	</div>
+
+	<!-- this div has another div inside it -->
+	<div id="three">
+		<div id="four">
+			<p>content goes here.</p>
+		</div>
+		<p>content goes here.</p>
+	</div>
+
+</main>
